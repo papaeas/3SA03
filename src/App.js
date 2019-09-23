@@ -6,7 +6,7 @@ import Start from './Start'
 import _ from 'lodash';
 import profile from './leopard.jpg'
 
-const message = 'LEO'
+const message = 'LEOPARD'
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
   let chars = _.shuffle(Array.from(word))
@@ -108,15 +108,15 @@ class App extends React.Component {
 
                   <Check check_count={this.state.counter} />
                 </div>
-                <div className="itemm">
+                <div className="item">
                   {check}
                   {ans}
                   {checks}
                 </div>
               </div>
             </div>
-            <div className="itemm">
-              <button className="itemm" onClick={this.give_ups}> -> HINT</button>
+            <div className="item">
+              <button className="item" onClick={this.give_ups}> -> HINT</button>
               <h3>{this.state.give_up === true ? '  :   Wild animals ' : ''}</h3>
             </div>
           </div>
