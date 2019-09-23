@@ -14,3 +14,4 @@ function Start() {
       </div>
     );
   }
+  export default Start;
