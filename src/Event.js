@@ -35,3 +35,4 @@ class Event extends React.Component {
         )
     }
 }
+export default Event;
