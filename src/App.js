@@ -77,7 +77,7 @@ class App extends React.Component {
                     <div></div>
                     <h3 className="pim">{this.state.show === true ? '6035512004' : 'Make By : Phimwadi Kanjanopas'}</h3>
                     <h3 className="pim">{this.state.show === true ? '6035512004' : 'No : 6035512004'}</h3>
-                    <h1 className="pae">{this.state.show === true ? '6035512004' : 'Please spell it!!!'}</h1>
+                    <h1 className="pae">{this.state.show === true ? '6035512004' : 'Please spell it *0*'}</h1>
                   </div>
                 </div>
               </div>
