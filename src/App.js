@@ -57,7 +57,7 @@ class App extends React.Component {
   render() {
     let check = this.state.completed === false ? '' : <button className="poppp" onClick={this.reset}><h1> _ Play Again _</h1></button>;
     let ans = this.state.completed === false ? '' : <h3> </h3>;
-    let checks = this.state.completed === false ? '' : <h1 className="gooss">. . WINNER . .</h1>;
+    let checks = this.state.completed === false ? '' : <h1 className="gooss">. . Victory!!! . .</h1>;
     //let count_end = this.state.counter > 2 ? "Game Over" : "Counter : " + this.state.counter;
 
     return (
