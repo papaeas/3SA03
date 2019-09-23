@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: rgb(0, 255, 157);
 }
 .text{
     text-align: center;
@@ -11,5 +11,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: orange;
+    color: rgb(102, 255, 0);
 }

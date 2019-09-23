@@ -3,36 +3,36 @@
   text-align: center;
   width: 1em;
   font-size: 2em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(194, 149, 149, 0.2);
   margin: 1em;
   user-select: none;
-  color: bisque;
+  color: rgb(227, 250, 162);
   font-family: sans-serif;
   border-radius: 5px;
-  border: 10px solid palevioletred;
+  border: 10px solid rgb(243, 103, 103);
   padding: 1.2em 1.5em;
    }
  .playCard {
   text-align: center;
-  color : floralwhite;
-  background :darkcyan;
-  border: 10px solid blue;
+  color : rgb(253, 209, 120);
+  background :rgb(87, 5, 134);
+  border: 10px solid rgb(0, 132, 255);
   font-family: sans-serif;
   border-radius: 3px;
-  border: 2px solid rgb(6, 218, 87);
+  border: 2px solid rgb(91, 218, 6);
  } 
  .exam{
    text-align-last: center;
   text-align: center;
-  color : darkblue;
-  background : rgb(126, 124, 122);
-  border: 3px solid blue;
+  color : rgb(0, 95, 139);
+  background : rgb(206, 129, 129);
+  border: 3px solid rgb(0, 140, 255);
   font-family: sans-serif;
   border-radius: 3px;
   font-size: 2em;
  }
  .pim{
-  background: saddlebrown;
+  background: rgb(139, 23, 19);
  text-align: center;
  border: 3px;
  font-family: sans-serif;
@@ -40,27 +40,30 @@
  padding: 0.25em 1em;
   }
   .pae{
-    background: saddlebrown;
+    background: rgb(139, 19, 19);
+   text-align-last: center;
    text-align: center;
-   border: 3px;
+   color : rgb(95, 0, 139);
+   border: 3px solid rgb(234, 0, 255);;
    font-family: sans-serif;
+   border-radius: 3px;
    background: transparent;
    padding: 0.25em 1em;
     }
   .gooss{
-   background: saddlebrown;
+   background: rgb(139, 23, 19);
   text-align: right;
   border: 3px;
-  color: brown;
+  color: rgb(165, 42, 83);
   font-family: fantasy;
   background: transparent;
   padding: 0.25em 1em;
    }
    .deed {
      text-align: center;
-     color : green;
-     background :saddlebrown;
-     border: 10px solid blue;
+     color : rgb(105, 128, 0);
+     background :rgb(139, 19, 19);
+     border: 10px solid rgb(204, 0, 255);
      font-family: sans-serif;
      border-radius: 3px;
      font-family: sans-serif;
@@ -68,10 +71,10 @@
      font-size: 5em;
     } 
     .poppp{
-     background: saddlebrown;
+     background: rgb(113, 139, 19);
     text-align: right;
-    border: 6px  solid darkcyan;
-    color: goldenrod;
+    border: 6px  solid rgb(0, 139, 116);
+    color: rgb(32, 218, 156);
     font-family: Lucida Sans;
     background: transparent;
     padding: 0.25em 1em;
