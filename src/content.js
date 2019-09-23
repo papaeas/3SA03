@@ -14,9 +14,9 @@ export default class Content extends Component{
 
     render(){
         return(
-            <div>
-                <button onClick={this.addNum}>num: {this.state.count}</button>
-             </div>
+            <div className="card">
+                <button onClick={this.addNum}>num {this.state.count}</button>
+            </div>
 
         )
     }
