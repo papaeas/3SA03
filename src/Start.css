@@ -19,3 +19,22 @@
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     border-radius: 12px;
 }
+.button55{
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+
+}
+.text-head{
+    color: aliceblue;
+    font-size: 350%;
+
+}
