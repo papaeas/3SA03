@@ -19,3 +19,5 @@ class Check extends React.Component {
         )
     }
 }
+
+export default Check;
