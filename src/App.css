@@ -31,3 +31,41 @@
   border-radius: 3px;
   font-size: 2em;
  }
+ .pim{
+  background: saddlebrown;
+ text-align: center;
+ border: 3px;
+ font-family: sans-serif;
+ background: transparent;
+ padding: 0.25em 1em;
+  }
+  .gooss{
+   background: saddlebrown;
+  text-align: right;
+  border: 3px;
+  color: brown;
+  font-family: fantasy;
+  background: transparent;
+  padding: 0.25em 1em;
+   }
+   .deed {
+     text-align: center;
+     color : green;
+     background :saddlebrown;
+     border: 10px solid blue;
+     font-family: sans-serif;
+     border-radius: 3px;
+     font-family: sans-serif;
+     display: inline-block;
+     font-size: 5em;
+    } 
+    .poppp{
+     background: saddlebrown;
+    text-align: right;
+    border: 6px  solid darkcyan;
+    color: goldenrod;
+    font-family: Lucida Sans;
+    background: transparent;
+    padding: 0.25em 1em;
+    font-size: 2em;
+     }
