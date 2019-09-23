@@ -108,15 +108,15 @@ class App extends React.Component {
 
                   <Check check_count={this.state.counter} />
                 </div>
-                <div className="item">
+                <div className="itemm">
                   {check}
                   {ans}
                   {checks}
                 </div>
               </div>
             </div>
-            <div className="item">
-              <button className="item" onClick={this.give_ups}> -> HINT</button>
+            <div className="itemm">
+              <button className="itemm" onClick={this.give_ups}> -> HINT</button>
               <h3>{this.state.give_up === true ? '  :   Wild animals ' : ''}</h3>
             </div>
           </div>
