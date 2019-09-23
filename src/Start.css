@@ -9,3 +9,13 @@
     align-self:center;
     flex-direction: column;
 }
+.two{
+    background: #839192;
+    display: block;
+    margin: 200px;
+    width: 50vh;
+    height: 25vh; 
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    border-radius: 12px;
+}
