@@ -58,7 +58,7 @@ class App extends React.Component {
     let check = this.state.completed === false ? '' : <button className="poppp" onClick={this.reset}><h1> _ Play Again _</h1></button>;
     let ans = this.state.completed === false ? '' : <h3> </h3>;
     let checks = this.state.completed === false ? '' : <h1 className="gooss">. . WINNER . .</h1>;
-    //let count_end = this.state.counter > 3 ? "Game Over" : "Counter : " + this.state.counter;
+    //let count_end = this.state.counter > 2 ? "Game Over" : "Counter : " + this.state.counter;
 
     return (
       <div className="pim">
@@ -96,7 +96,7 @@ class App extends React.Component {
                 ))
               }
               <div className="pim">
-                <h1 className="pim">You can play 3 round</h1>
+                <h1 className="pim">You can play 2 round</h1>
                 {
                   Array.from(this.state.guess).map((x, y) => (
                     <Event
