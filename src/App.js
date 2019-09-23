@@ -58,7 +58,7 @@ class App extends React.Component {
     let check = this.state.completed === false ? '' : <button className="poppp" onClick={this.reset}><h1> _ Play Again _</h1></button>;
     let ans = this.state.completed === false ? '' : <h3> </h3>;
     let checks = this.state.completed === false ? '' : <h1 className="gooss">. . WINNER . .</h1>;
-    //let count_end = this.state.counter > 5 ? "Game Over" : "Counter : " + this.state.counter;
+    //let count_end = this.state.counter > 3 ? "Game Over" : "Counter : " + this.state.counter;
 
     return (
       <div className="pim">
@@ -109,15 +109,15 @@ class App extends React.Component {
 
                   <Check check_count={this.state.counter} />
                 </div>
-                <div className="itemm">
+                <div className="exam">
                   {check}
                   {ans}
                   {checks}
                 </div>
               </div>
             </div>
-            <div className="itemm">
-              <button className="itemm" onClick={this.give_ups}> -> HINT</button>
+            <div className="exam">
+              <button className="exam" onClick={this.give_ups}> -> HINT</button>
               <h3>{this.state.give_up === true ? '  :   Wild animals ' : ''}</h3>
             </div>
           </div>
