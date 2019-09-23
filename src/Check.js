@@ -8,7 +8,7 @@ class Check extends React.Component {
         //let count_end = this.props.check_count > 2 ? "Game Over" : "Counter : " + this.props.check_count;
         let count_end = this.props.check_count > 2 ? 'ch2' : '';
         //let colors = count_end > 2 ? 'area2' : '';
-        let count_ends = this.props.check_count > 2 ? "Game Over" : "Counter : " + this.props.check_count;
+        let count_ends = this.props.check_count > 2 ? "Game Over!!!" : "Counter : " + this.props.check_count;
         let test = `ch ${count_end}`
         return (
             <div>
