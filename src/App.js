@@ -69,14 +69,14 @@ class App extends React.Component {
           <div className="playCard"><img className="animal" src={profile}></img></div>
             <div className="center-box">
               <div className="center-text">
-                <div className="activeCard"><h1 className="text">Lab : 3SA03 " React Web Application "</h1></div>
+                <div className="activeCard"><h2 className="text">Lab : 3SA03 " React Web Application "</h2></div>
                 <div className="click">
                   <div className="button-a">
                   </div>
                   <div className="box-myname">
                     <div></div>
-                    <h3 className="pim">{this.state.show === true ? '6035512004' : 'Make By : Phimwadi Kanjanopas'}</h3>
-                    <h3 className="pim">{this.state.show === true ? '6035512004' : 'No : 6035512004'}</h3>
+                    <h4 className="pim">{this.state.show === true ? '6035512004' : 'Make By : Phimwadi Kanjanopas'}</h4>
+                    <h4 className="pim">{this.state.show === true ? '6035512004' : 'No : 6035512004'}</h4>
                     <h1 className="pae">{this.state.show === true ? '6035512004' : 'Please spell it *0*'}</h1>
                   </div>
                 </div>
