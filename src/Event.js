@@ -26,7 +26,7 @@ class Event extends React.Component {
         }
     }
     render() {
-        let activeClass = this.state.active ? 'activeCard' : '';
+        let activeClass = this.state.active ? 'playCard' : '';
         let className = `card ${activeClass}`
         return (
             <div className={className} onClick={this.activate}>
