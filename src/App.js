@@ -65,6 +65,7 @@ class App extends React.Component {
      
         <div className="first">
           <div className="second">
+          <h1 className="pae">{this.state.show === true ? '6035512004' : 'Can you tell me?'}</h1>
             <div className="activeCard"><img className="profile" src={profile}></img></div>
             <div className="center-box">
               <div className="center-text">
