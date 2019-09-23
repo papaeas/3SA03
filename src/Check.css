@@ -7,3 +7,9 @@
 .text{
     text-align: center;
 }
+.ch2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
