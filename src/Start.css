@@ -1,0 +1,11 @@
+.body{
+    background-color: #273746;
+    font-family: 'Roboto', sans-serif;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self:center;
+    flex-direction: column;
+}
