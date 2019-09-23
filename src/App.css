@@ -39,6 +39,14 @@
  background: transparent;
  padding: 0.25em 1em;
   }
+  .pae{
+    background: saddlebrown;
+   text-align: center;
+   border: 3px;
+   font-family: sans-serif;
+   background: transparent;
+   padding: 0.25em 1em;
+    }
   .gooss{
    background: saddlebrown;
   text-align: right;
