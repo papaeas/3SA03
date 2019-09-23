@@ -18,4 +18,17 @@ class Event extends React.Component {
         }
         else if (this.state.active === false)
             this.props.click(this.props.value);
+    }componentDidUpdate = (prevProps) => {
+        if (prevProps.number !== this.props.number || prevProps.check !== this.props.check) {
+            this.setState({ active: false })
+            console.log('..');
+        }
     }
+    render() {
+        let activeClass = this.state.active ? 'playCard' : '';
+        let className = `card ${activeClass}`
+        return (
+            <div className={className} onClick={this.activate}>
+                <h1>{this.props.value}</h1>
+            </div>
+        )
