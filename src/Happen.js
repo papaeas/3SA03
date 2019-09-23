@@ -32,3 +32,6 @@ class Event extends React.Component {
                 <h1>{this.props.value}</h1>
             </div>
         )
+    }
+}
+export default Event;
