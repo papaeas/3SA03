@@ -1,14 +1,33 @@
 .card {
   display: inline-block;
   text-align: center;
-  width: 3em;
+  width: 1em;
   font-size: 2em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 1em;
   user-select: none;
- }
-
+  color: bisque;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border: 10px solid palevioletred;
+  padding: 1.2em 1.5em;
+   }
  .activeCard {
-  color: red;
-  background: pink;
+  text-align: center;
+  color : floralwhite;
+  background :darkcyan;
+  border: 10px solid blue;
+  font-family: sans-serif;
+  border-radius: 3px;
+  border: 2px solid rgb(6, 218, 87);
+ } 
+ .item{
+   text-align-last: center;
+  text-align: center;
+  color : darkblue;
+  background : rgb(126, 124, 122);
+  border: 3px solid blue;
+  font-family: sans-serif;
+  border-radius: 3px;
+  font-size: 2em;
  }
