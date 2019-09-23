@@ -1,6 +1,6 @@
 import React from 'react';
 import './Check.css';
-import Event from './Event';
+import Event from './Happen';
 import App from './App'
 
 class Check extends React.Component {

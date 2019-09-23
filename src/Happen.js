@@ -18,7 +18,8 @@ class Event extends React.Component {
         }
         else if (this.state.active === false)
             this.props.click(this.props.value);
-    }componentDidUpdate = (prevProps) => {
+    }
+    componentDidUpdate = (prevProps) => {
         if (prevProps.number !== this.props.number || prevProps.check !== this.props.check) {
             this.setState({ active: false })
             console.log('..');

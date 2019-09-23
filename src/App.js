@@ -1,5 +1,5 @@
 import React from 'react';
-import Event from './Event';
+import Event from './Happen';
 import Check from './Check';
 import './App.css';
 import Start from './Start'
