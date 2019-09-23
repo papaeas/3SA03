@@ -6,7 +6,7 @@ import Start from './Start'
 import _ from 'lodash';
 import profile from './leopard.jpg'
 
-const message = 'LEOPARD'
+const message = 'LEO'
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
   let chars = _.shuffle(Array.from(word))
