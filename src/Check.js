@@ -5,10 +5,10 @@ import App from './App'
 
 class Check extends React.Component {
     render() {
-        //let count_end = this.props.check_count > 5 ? "Game Over" : "Counter : " + this.props.check_count;
-        let count_end = this.props.check_count > 5 ? 'ch2' : '';
-        //let colors = count_end > 5 ? 'area2' : '';
-        let count_ends = this.props.check_count > 5 ? "Game Over" : "Counter : " + this.props.check_count;
+        //let count_end = this.props.check_count > 3 ? "Game Over" : "Counter : " + this.props.check_count;
+        let count_end = this.props.check_count > 3 ? 'ch2' : '';
+        //let colors = count_end > 3 ? 'area2' : '';
+        let count_ends = this.props.check_count > 3 ? "Game Over" : "Counter : " + this.props.check_count;
         let test = `ch ${count_end}`
         return (
             <div>
